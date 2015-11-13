@@ -1,0 +1,17 @@
+{
+  "private": true,
+  "name": "foo",
+  "version": "0.0.0",
+  "bin": {
+    "foo": "index.js"
+  },
+  "files": [
+    "index.js"
+  ],
+  "dependencies": {
+    "leveldown": "^1.4.2"
+  },
+  "bundleDependencies": [
+    "leveldown"
+  ]
+}
