@@ -9,15 +9,3 @@ try {
 
   process.exit(1)
 }
-
-// var db = require('leveldown')(__dirname + '/db')
-
-// db.open(function (error) {
-//   console.log('db.open', error)
-
-//   if (!error) {
-//     db.close(function (error) {
-//       console.log('db.close()', error)
-//     })
-//   }
-// })
