@@ -10,13 +10,14 @@ dependencies behavior:
 > cd foo
 > npm i
 > cd ..
+> npm pack ./foo
 ```
 
 
 When installed for the first time, it works normally:
 
 ```
-> npm i ./foo
+> npm i ./foo-0.0.0.tgz
 > ./node_modules/.bin/foo
 it works!
 ```
@@ -24,7 +25,7 @@ it works!
 When reinstalled, it failed:
 
 ```
-> npm i ./foo
+> npm i ./foo-0.0.0.tgz
 > ./node_modules/.bin/foo
 it does not work :(
 Error: Could not locate the bindings file. Tried:
