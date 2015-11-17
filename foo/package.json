@@ -3,7 +3,7 @@
   "name": "foo",
   "version": "0.0.0",
   "bin": {
-    "foo": "index.js"
+    "foo": "./index.js"
   },
   "files": [
     "index.js"
